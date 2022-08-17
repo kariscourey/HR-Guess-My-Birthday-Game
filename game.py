@@ -29,7 +29,7 @@ for i in range(rounds):
                 print("Invalid input!")
 
     else:
-        exit
+        exit()
 
 # Evaluate answer after loop
 if answer == "Y":

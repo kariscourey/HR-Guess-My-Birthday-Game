@@ -1,7 +1,6 @@
 from random import randint
 
 # Initialize variables
-
 rounds = 5
 answer = ""
 
@@ -11,6 +10,7 @@ name = input("Hi! What is your name? ")
 # Evaluate round
 for i in range(rounds):
 
+    # Initialize month, year
     month = randint(1, 12)
     year = randint(1924, 2004)
 
